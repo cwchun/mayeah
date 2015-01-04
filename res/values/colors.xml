@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="radio_button_selected_color">#f95f7f</color>
+    <color name="radio_button_unselected_color">#ffffff</color>
+    
+    <color name="hospital_bg_color">#f4f4f0</color>
+</resources>

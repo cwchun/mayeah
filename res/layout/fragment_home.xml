@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:scrollbars="none"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.mayeah.widget.AutoScrollViewPager
+            android:id="@+id/vp_home_bana"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <com.mayeah.widget.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/cpi_points"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/vp_home_bana"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+        <com.mayeah.widget.NoScrollGridView
+            android:id="@+id/gv_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/vp_home_bana"
+            android:layout_marginTop="16dp"
+            android:choiceMode="singleChoice"
+            android:gravity="center"
+            android:horizontalSpacing="16dp"
+            android:listSelector="@null"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:verticalSpacing="16dp" />
+    </RelativeLayout>
+
+</ScrollView>

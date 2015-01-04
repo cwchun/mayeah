@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f0"
+    android:orientation="vertical" >
+    
+    <com.mayeah.widget.SegmentedGroup
+        android:id="@+id/sg_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+    	<RadioButton
+    	    android:id="@+id/rb_demo" 
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:checked="true"
+    	    android:text="案例"
+    	    style="@style/RadioButton"/>
+    	<RadioButton
+    	    android:id="@+id/rb_project" 
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:text="项目"
+    	    style="@style/RadioButton"/>
+    	<RadioButton
+    	    android:id="@+id/rb_doctor" 
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:text="医生"
+    	    style="@style/RadioButton"/>    
+    </com.mayeah.widget.SegmentedGroup>
+    
+    <ListView android:id="@+id/lv_hospitals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:scrollbars="none"
+        android:divider="@color/hospital_bg_color"
+        android:dividerHeight="16dp"/>
+
+</LinearLayout>

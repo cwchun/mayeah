@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/title_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    <!-- <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/icon"/> -->
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:drawablePadding="12dp"
+        android:text="美嘢"
+        android:textSize="23sp"
+        android:textColor="@android:color/white"/>
+	
+    <ImageView android:id="@+id/iv_more"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/icon_more"
+        android:contentDescription="@string/app_name"/>
+    
+    <ImageView android:id="@+id/iv_setting"
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+        android:layout_toLeftOf="@id/iv_more"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/icon_setting"
+        android:contentDescription="@string/app_name"/>
+</RelativeLayout>
