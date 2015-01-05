@@ -10,4 +10,5 @@
     <color name="black">#000000</color>
     <color name="dark">#707070</color>
     <color name="dark_red">#ff5a85</color>
+    <color name="shallow_white">#f0f0f0</color>
 </resources>
