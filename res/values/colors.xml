@@ -4,4 +4,10 @@
     <color name="radio_button_unselected_color">#ffffff</color>
     
     <color name="hospital_bg_color">#f4f4f0</color>
+    <color name="translate">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="pagebg">#f3f3f3</color>
+    <color name="black">#000000</color>
+    <color name="dark">#707070</color>
+    <color name="dark_red">#ff5a85</color>
 </resources>
